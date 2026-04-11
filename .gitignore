@@ -72,12 +72,10 @@ web_modules/
 *.env
 
 # Ignore env in all folders
-**/.env
-**/.env.*
+#
 # parcel-bundler cache (https://parceljs.org/)
 .cache
 .parcel-cache
-.env.example
 
 # Next.js build output
 .next
