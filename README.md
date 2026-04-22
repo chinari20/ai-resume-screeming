@@ -1,4 +1,8 @@
 # AI Resume Screening & Smart Hiring Platform
+<<<<<<< HEAD
+=======
+
+>>>>>>> c41b4117e26aed73fad155e243cf759c149382a3
 Production-style MERN application with JWT auth, role-based dashboards, resume upload/parsing, automated candidate scoring, recruiter screening workflows, admin analytics, and seed data.
 
 ## Folder Structure

@@ -23,9 +23,15 @@ const Navbar = () => {
           <NavLink to="/about" className={navClass}>
             About
           </NavLink>
+<<<<<<< HEAD
           {/* <NavLink to="/contact" className={navClass}>
             Contact
           </NavLink> */}
+=======
+          <NavLink to="/contact" className={navClass}>
+            Contact
+          </NavLink>
+>>>>>>> c41b4117e26aed73fad155e243cf759c149382a3
           {user ? (
             <>
               <Link
