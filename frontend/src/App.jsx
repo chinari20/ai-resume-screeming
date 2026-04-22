@@ -13,10 +13,7 @@ import CandidateProfilePage from "./pages/candidate/CandidateProfilePage";
 import RecommendedJobsPage from "./pages/candidate/RecommendedJobsPage";
 import ResumeUploadPage from "./pages/candidate/ResumeUploadPage";
 import AboutPage from "./pages/public/AboutPage";
-<<<<<<< HEAD
-=======
-import ContactPage from "./pages/public/ContactPage";
->>>>>>> c41b4117e26aed73fad155e243cf759c149382a3
+// import ContactPage from "./pages/public/ContactPage";
 import HomePage from "./pages/public/HomePage";
 import JobDetailsPage from "./pages/public/JobDetailsPage";
 import JobsPage from "./pages/public/JobsPage";
@@ -31,11 +28,7 @@ const App = () => (
     <Route element={<PublicLayout />}>
       <Route path="/" element={<HomePage />} />
       <Route path="/about" element={<AboutPage />} />
-<<<<<<< HEAD
       {/* <Route path="/contact" element={<ContactPage />} /> */}
-=======
-      <Route path="/contact" element={<ContactPage />} />
->>>>>>> c41b4117e26aed73fad155e243cf759c149382a3
       <Route path="/jobs" element={<JobsPage />} />
       <Route path="/jobs/:id" element={<JobDetailsPage />} />
       <Route path="/login" element={<AuthPage mode="login" />} />
